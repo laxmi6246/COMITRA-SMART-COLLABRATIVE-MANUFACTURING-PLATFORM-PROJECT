@@ -1,0 +1,57 @@
+========================================================================
+     CoMitra – Smart Collaborative Manufacturing Platform
+     HOW TO RUN & SHOW TO FACULTY (1-CLICK EXECUTION)
+========================================================================
+
+OPTION 1: DOUBLE-CLICK TO RUN (EASIEST)
+------------------------------------------------------------------------
+1. Double-click the file named:
+   
+   👉 RUN_COMITRA.bat 👈
+
+2. A black terminal window will open, automatically start the server,
+   and open your web browser to http://localhost:5000 in 2 seconds!
+
+3. Keep the black window open during your presentation.
+
+
+OPTION 2: ALREADY RUNNING RIGHT NOW!
+------------------------------------------------------------------------
+The server is already running in the background. You can open your
+browser (Google Chrome or Microsoft Edge) directly and go to:
+
+   👉 http://localhost:5000 👈
+
+
+DEMO LOGIN ACCOUNTS (1-CLICK ON SCREEN)
+------------------------------------------------------------------------
+On the login screen, simply click one of the 3 role buttons:
+  • Order Owner: Rajesh Sharma (owner@comitra.com)
+  • Manufacturing Partner: Kiran Reddy (partner@comitra.com)
+  • Administrator: Prof. Ramanathan (admin@comitra.com)
+  Password for all: demo1234
+
+
+5-STEP DEMONSTRATION WORKFLOW FOR FACULTY:
+------------------------------------------------------------------------
+1. Dashboard (http://localhost:5000/dashboard)
+   - Show network capacity, active orders, and visual workflow.
+
+2. Business Profiles (http://localhost:5000/businesses)
+   - Show 4 manufacturing facilities with machinery photos & capacities.
+
+3. Step 2: Find Partners (http://localhost:5000/find-partners)
+   - Show the 5-criteria weighted algorithm:
+     Score = (Cap*0.30) + (Mach*0.25) + (Qual*0.20) + (Del*0.15) + (Loc*0.10)
+     Precision (Rank #1), Apex (Rank #2), Unity (Rank #3).
+     Rapid Plastic excluded in RED due to incompatible machinery.
+
+4. Step 3: Work Allocation (http://localhost:5000/orders/ORD-2026-001/allocate)
+   - Shows pre-balanced 400 + 350 + 250 = 1,000 units.
+   - Click "Confirm Allocation & Proceed".
+
+5. Step 4 & 5: Production & Quality (http://localhost:5000/production)
+   - Show 10% progress bar (100 units logged by Precision Metal Works).
+   - Show 5-Point Quality Check Passed (http://localhost:5000/quality).
+   - Show signed printable contract (http://localhost:5000/agreements).
+========================================================================
